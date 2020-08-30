@@ -1,0 +1,8 @@
+{
+  "DefaultEnvironment": "QA",
+  "DefaultBrowser": "CHROME",
+  "DashboardHistoryCount": "20",
+  "DashboardTotalDayCount": "10",
+  "HUBMachineName": "192.168.1.42",
+  "HUBPort": "4444"
+}

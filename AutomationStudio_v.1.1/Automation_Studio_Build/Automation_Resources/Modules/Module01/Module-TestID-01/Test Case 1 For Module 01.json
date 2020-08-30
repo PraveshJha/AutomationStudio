@@ -1,0 +1,76 @@
+[
+  {
+    "1": {
+      "teststepid": 1,
+      "stepdescription": "Launch Amazon Application",
+      "action": "LaunchApplication",
+      "locator": "",
+      "locatorproperty": "",
+      "value": "c.ApplicationURL",
+      "exitIfFail": "Y"
+    },
+    "2": {
+      "teststepid": 2,
+      "stepdescription": "Type any product in amazon searchbox",
+      "action": "Type",
+      "locator": "id",
+      "locatorproperty": "twotabsearchtextbox",
+      "value": "t.PRODUCT",
+      "exitIfFail": "Y"
+    },
+    "3": {
+      "teststepid": 3,
+      "stepdescription": "Click on search box icon",
+      "action": "Click",
+      "locator": "xpath",
+      "locatorproperty": "//input[@value='Go']",
+      "value": "",
+      "exitIfFail": "Y"
+    },
+    "4": {
+      "teststepid": 4,
+      "stepdescription": "Click on Product link from PLP page",
+      "action": "Click",
+      "locator": "xpath",
+      "locatorproperty": "//a/span[contains(text(),'+t.PRODUCT+')]",
+      "value": "",
+      "exitIfFail": "Y"
+    },
+    "5": {
+      "teststepid": 5,
+      "stepdescription": "Move on new browser session",
+      "action": "SwitchToWindow",
+      "locator": "",
+      "locatorproperty": "",
+      "value": "1",
+      "exitIfFail": "Y"
+    },
+    "6": {
+      "teststepid": 6,
+      "stepdescription": "Wait till page is showing Add To Cart",
+      "action": "WaitForElement",
+      "locator": "id",
+      "locatorproperty": "add-to-cart-button",
+      "value": "30",
+      "exitIfFail": "Y"
+    },
+    "7": {
+      "teststepid": 7,
+      "stepdescription": "Click on Add To Cart button",
+      "action": "Click",
+      "locator": "id",
+      "locatorproperty": "add-to-cart-button",
+      "value": "",
+      "exitIfFail": "Y"
+    },
+    "8": {
+      "teststepid": 8,
+      "stepdescription": "Click on Proceed to Buy button",
+      "action": "Click",
+      "locator": "id",
+      "locatorproperty": "hlb-ptc-btn-native",
+      "value": "",
+      "exitIfFail": "Y"
+    }
+  }
+]

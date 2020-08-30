@@ -1,0 +1,25 @@
+[
+  {
+    "Id": {
+      "qa": "",
+      "twotabsearchtextbox": "",
+      "nav-cart-count": "",
+      "add-to-cart-button": "",
+      "hlb-ptc-btn-native": "",
+      "a-autoid-1-announce": "",
+      "ap_phone_number": ""
+    },
+    "Name": {},
+    "ClassName": {},
+    "XPath": {
+      "//a/span[contains(text(),'+t.PRODUCT+')]": "",
+      "//input[@value='Go']": ""
+    },
+    "LinkText": {
+      "//input[@value='Go']": ""
+    },
+    "PartialLinkText": {},
+    "TagName": {},
+    "CssSelector": {}
+  }
+]
